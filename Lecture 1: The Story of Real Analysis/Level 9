@@ -1,0 +1,7 @@
+choose a ha using h_existential
+use a
+intro y hy
+specialize h_universal y hy
+rewrite [h_universal]
+rewrite [ha]
+ring_nf
