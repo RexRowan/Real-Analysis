@@ -1,0 +1,4 @@
+choose c hc using h
+use c
+rewrite [hc]
+ring_nf
